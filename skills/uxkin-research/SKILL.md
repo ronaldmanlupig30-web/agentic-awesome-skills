@@ -105,3 +105,23 @@ reference.
 
 When the person moves on to building, follow the `no-ui-slop` skill if
 it's installed.
+
+## Examples
+
+The person asks: "How do other meditation apps onboard new users?"
+
+```text
+1. Frame it: what starts the flow, how many steps, and what ends it?
+2. find_ui_references("meditation app onboarding")
+3. get_journey on 3 to 5 results; note the start, each step's purpose and the end.
+4. Report the shared pattern, where the flows differ and one recommendation.
+```
+
+For a starting design system, call `find_ui_materials("wellness light warm")`, compare the named color roles, type and components, then say which one fits the product and why.
+
+## Limitations
+
+- Needs the UXKIN MCP tools connected. Without them the skill answers from the project and general principles, and says so.
+- Real references depend on the UXKIN account; a plan-limited search returns no examples and the skill carries on without them.
+- Covers iOS app screens, user journeys and website design systems. Other platforms may have no references.
+- References inform decisions; they are not templates and never override the product's own requirements, accessibility or platform conventions.
